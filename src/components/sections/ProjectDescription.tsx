@@ -11,8 +11,13 @@ const ProjectDescription = () => {
             Goal
           </h3>
           <p className="text-card-foreground leading-relaxed">
-            Develop a professional cybersecurity portfolio that highlights skills, certifications, 
-            and hands-on experience to support landing an entry-level role.
+            This project aims to support my pursuit of an entry-level role in cybersecurity by creating 
+            a professional portfolio that highlights my skills, certifications, and practical experience. 
+            The portfolio will showcase completed course projects, preparation for the CompTIA Security+ 
+            certification, and documentation of hands-on training or internship experiences. By presenting 
+            a well-rounded record of technical knowledge and industry-relevant accomplishments, the portfolio 
+            will serve as a professional showcase of my job readiness and position me as a strong candidate 
+            to potential employers and internship providers.
           </p>
         </div>
         
