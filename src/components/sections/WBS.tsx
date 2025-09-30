@@ -3,7 +3,7 @@ import { FileText } from "lucide-react";
 
 const WBS = () => {
   return (
-    <section className="py-12 px-6 bg-muted/30">
+    <section id="wbs" className="py-12 px-6 bg-muted/30 scroll-mt-24">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center gap-3 mb-8">
           <FileText className="w-6 h-6 text-primary" />

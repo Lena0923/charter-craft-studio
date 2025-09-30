@@ -37,7 +37,7 @@ const Deliverables = () => {
   ];
 
   return (
-    <Section number="5" title="Deliverables & Done" icon={Package}>
+    <Section id="deliverables" number="5" title="Deliverables & Done" icon={Package}>
       <div className="space-y-6">
         {deliverables.map((deliverable, index) => (
           <Card key={index} className="p-6 border-l-4 border-primary bg-card/50">

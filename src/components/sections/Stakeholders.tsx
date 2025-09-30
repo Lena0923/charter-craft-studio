@@ -34,7 +34,7 @@ const Stakeholders = () => {
   };
 
   return (
-    <Section number="7" title="Stakeholder Register" icon={Users}>
+    <Section id="stakeholders" number="7" title="Stakeholder Register" icon={Users}>
       <div className="overflow-x-auto">
         <div className="min-w-[900px]">
           <table className="w-full text-sm">

@@ -21,7 +21,7 @@ const Screenshots = () => {
   ];
 
   return (
-    <Section number="10" title="Screenshots — Project Tool in Use" icon={Image}>
+    <Section id="screenshots" number="10" title="Screenshots — Project Tool in Use" icon={Image}>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {screenshots.map((screenshot, index) => (
           <div key={index} className="space-y-3">

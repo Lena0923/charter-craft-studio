@@ -3,7 +3,7 @@ import { Layers, CheckCircle2, Map, XCircle } from "lucide-react";
 
 const Scope = () => {
   return (
-    <Section number="4" title="High-Level Scope" icon={Layers}>
+    <Section id="scope" number="4" title="High-Level Scope" icon={Layers}>
       <div className="space-y-8">
         <div className="space-y-4">
           <div className="flex items-center gap-2">

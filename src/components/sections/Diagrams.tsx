@@ -3,7 +3,7 @@ import { FileImage } from "lucide-react";
 
 const Diagrams = () => {
   return (
-    <Section number="9" title="Diagram & Evidence" icon={FileImage}>
+    <Section id="diagrams" number="9" title="Diagram & Evidence" icon={FileImage}>
       <div className="space-y-6">
         <div>
           <h3 className="text-lg font-semibold text-foreground mb-4">

@@ -27,7 +27,7 @@ const Budget = () => {
   ];
 
   return (
-    <Section number="6" title="Budget Estimate" icon={DollarSign}>
+    <Section id="budget" number="6" title="Budget Estimate" icon={DollarSign}>
       <div className="space-y-8 overflow-x-auto">
         {budgetData.map((section, idx) => (
           <div key={idx} className="space-y-4">

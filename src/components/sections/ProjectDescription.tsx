@@ -3,7 +3,7 @@ import { Target } from "lucide-react";
 
 const ProjectDescription = () => {
   return (
-    <Section number="1" title="Project Title & Description" icon={Target}>
+    <Section id="project-description" number="1" title="Project Title & Description" icon={Target} defaultOpen={true}>
       <div className="space-y-6">
         <div className="p-6 bg-accent/10 rounded-lg border-l-4 border-accent">
           <h3 className="text-lg font-semibold text-foreground mb-3 flex items-center gap-2">

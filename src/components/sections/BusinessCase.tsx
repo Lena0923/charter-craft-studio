@@ -3,7 +3,7 @@ import { Briefcase, Heart, GraduationCap } from "lucide-react";
 
 const BusinessCase = () => {
   return (
-    <Section number="3" title="Business Case & Justification" icon={Briefcase}>
+    <Section id="business-case" number="3" title="Business Case & Justification" icon={Briefcase}>
       <div className="space-y-8">
         <div className="space-y-4">
           <div className="flex items-center gap-2">

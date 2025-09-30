@@ -3,7 +3,7 @@ import { Settings } from "lucide-react";
 
 const Methodology = () => {
   return (
-    <Section number="8" title="Project Methodology & Tools" icon={Settings}>
+    <Section id="methodology" number="8" title="Project Methodology & Tools" icon={Settings}>
       <div className="space-y-8">
         <div className="space-y-4">
           <div className="flex items-center gap-2">

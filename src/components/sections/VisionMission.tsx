@@ -3,7 +3,7 @@ import { Compass } from "lucide-react";
 
 const VisionMission = () => {
   return (
-    <Section number="2" title="Vision, Mission & Strategy Alignment" icon={Compass}>
+    <Section id="vision-mission" number="2" title="Vision, Mission & Strategy Alignment" icon={Compass}>
       <div className="space-y-6">
         <div className="space-y-3">
           <h3 className="text-lg font-semibold text-foreground">Personal Mission Connection</h3>

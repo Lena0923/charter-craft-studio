@@ -1,5 +1,7 @@
 import Header from "@/components/Header";
 import StudentInfo from "@/components/StudentInfo";
+import Navigation from "@/components/Navigation";
+import BackToTop from "@/components/BackToTop";
 import ProjectDescription from "@/components/sections/ProjectDescription";
 import VisionMission from "@/components/sections/VisionMission";
 import BusinessCase from "@/components/sections/BusinessCase";
@@ -16,21 +18,25 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <main>
+      <Navigation />
+      <BackToTop />
+      <main className="pb-12">
         <StudentInfo />
-        <ProjectDescription />
-        <VisionMission />
-        <BusinessCase />
-        <Scope />
-        <Deliverables />
-        <WBS />
-        <Budget />
-        <Stakeholders />
-        <Methodology />
-        <Diagrams />
-        <Screenshots />
+        <div className="space-y-6">
+          <ProjectDescription />
+          <VisionMission />
+          <BusinessCase />
+          <Scope />
+          <Deliverables />
+          <WBS />
+          <Budget />
+          <Stakeholders />
+          <Methodology />
+          <Diagrams />
+          <Screenshots />
+        </div>
       </main>
-      <footer className="bg-card border-t border-border py-8 px-6 mt-12">
+      <footer className="bg-card border-t border-border py-8 px-6">
         <div className="max-w-7xl mx-auto text-center text-muted-foreground text-sm">
           <p>Cybersecurity Portfolio Project Charter • Fall 2025</p>
           <p className="mt-2">Fatima Zahra Anammi • Managing IT Projects</p>
